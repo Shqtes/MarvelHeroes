@@ -1,0 +1,106 @@
+.style_spider_man {
+    font-family: calibri, Serif;
+    background: url("resources/background_spider_man.png") no-repeat fixed;
+    padding: 30px;
+    background-size: cover; /* Растянуть изображение фона на всю страницу */
+}
+
+.style_venom {
+    font-family: calibri, Serif;
+    background: url("resources/background_venom.jpeg") no-repeat fixed;
+    padding: 30px;
+}
+
+.style_chameleon {
+    font-family: calibri, Serif;
+    background: url("resources/background_chameleon.png") no-repeat fixed;
+    padding: 30px;
+}
+
+.style_shocker {
+    font-family: calibri, Serif;
+    background: url("resources/background_shocker.jpg") no-repeat fixed;
+    padding: 30px;
+}
+
+.style h1, p, ul, h2 {
+    margin: 0 0 30px 0;
+    border-radius: 20px;
+    background: #00000050;
+    padding: 10px;
+    color: white;
+}
+
+
+h2 {
+    width: 200px;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.transform_spider_man {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 3px 3px red;
+}
+
+.transform_venom {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 3px 3px darkblue;
+}
+
+.transform_chameleon {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 3px 3px darkgreen;
+}
+
+.transform_shocker {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 3px 3px darkorange;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.background {
+    width: 300px;
+    list-style-type: none;
+}
+
+.background li::before {
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: #923;
+    display: inline-block;
+    list-style-type: none;
+    border-radius: 10px;
+}
+
+.background a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.background a:hover {
+    text-decoration: overline underline;
+    color: darkred;
+    font-weight: 700;
+}
+
+.border {
+    display: block;
+    margin: 30px auto;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px black;
+}
