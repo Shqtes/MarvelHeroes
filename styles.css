@@ -2,7 +2,7 @@
     font-family: calibri, Serif;
     background: url("resources/background_spider_man.png") no-repeat fixed;
     padding: 30px;
-    background-size: cover; /* Растянуть изображение фона на всю страницу */
+/*    background-size: cover; !* Растянуть изображение фона на всю страницу *!*/
 }
 
 .style_venom {
